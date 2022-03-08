@@ -77,12 +77,6 @@
       "name": "Ícones",
       "settings": {
         "accent_icons": {
-          "options__1": {
-            "label": "Destaque 1"
-          },
-          "options__2": {
-            "label": "Destaque 2"
-          },
           "options__3": {
             "label": "Botão com contorno"
           },
@@ -180,7 +174,7 @@
       }
     },
     "search_input": {
-      "name": "Comportamento de pesquisa",
+      "name": "Comportamento da pesquisa",
       "settings": {
         "header": {
           "content": "Sugestões de produto"
@@ -238,24 +232,6 @@
             "label": "Direita"
           },
           "label": "Alinhamento do texto"
-        },
-        "color_scheme": {
-          "options__1": {
-            "label": "Destaque 1"
-          },
-          "options__2": {
-            "label": "Destaque 2"
-          },
-          "options__3": {
-            "label": "Plano de fundo 1"
-          },
-          "options__4": {
-            "label": "Plano de fundo 2"
-          },
-          "options__5": {
-            "label": "Inverso"
-          },
-          "label": "Esquema de cores"
         }
       }
     },
@@ -306,7 +282,7 @@
       "name": "Botões"
     },
     "variant_pills": {
-      "name": "Pílulas variantes"
+      "name": "Pílulas de variantes"
     },
     "inputs": {
       "name": "Entradas"
@@ -322,7 +298,7 @@
       "name": "Mídia"
     },
     "drawers": {
-      "name": "Caixas registradoras"
+      "name": "Menus deslizantes"
     }
   },
   "sections": {
@@ -351,6 +327,18 @@
         },
         "label": "Esquema de cores",
         "has_cards_info": "Atualize as configurações do tema para alterar o esquema de cores do cartão."
+      },
+      "heading_size": {
+        "label": "Tamanho do título",
+        "options__1": {
+          "label": "Pequeno"
+        },
+        "options__2": {
+          "label": "Médio"
+        },
+        "options__3": {
+          "label": "Grande"
+        }
       }
     },
     "announcement-bar": {
@@ -361,24 +349,6 @@
           "settings": {
             "text": {
               "label": "Texto"
-            },
-            "color_scheme": {
-              "label": "Esquema de cores",
-              "options__1": {
-                "label": "Plano de fundo 1"
-              },
-              "options__2": {
-                "label": "Plano de fundo 2"
-              },
-              "options__3": {
-                "label": "Inverso"
-              },
-              "options__4": {
-                "label": "Destaque 1"
-              },
-              "options__5": {
-                "label": "Destaque 2"
-              }
             },
             "link": {
               "label": "Link"
@@ -497,6 +467,21 @@
         },
         "show_view_all": {
           "label": "Habilitar o botão \"Ver tudo\" se a lista incluir mais coleções que as mostradas"
+        },
+        "columns_desktop": {
+          "label": "Número de colunas no desktop"
+        },
+        "header_mobile": {
+          "content": "Layout para dispositivos móveis"
+        },
+        "columns_mobile": {
+          "label": "Número de colunas em dispositivos móveis",
+          "options__1": {
+            "label": "1 coluna"
+          },
+          "options__2": {
+            "label": "2 colunas"
+          }
         }
       },
       "blocks": {
@@ -541,7 +526,7 @@
           "label": "Blog"
         },
         "post_limit": {
-          "label": "Posts do blog"
+          "label": "Número de posts do blog para mostrar"
         },
         "show_view_all": {
           "label": "Habilitar o botão \"Ver tudo\" se o blog tiver mais posts que os mostrados"
@@ -555,6 +540,9 @@
         },
         "show_author": {
           "label": "Exibir autor"
+        },
+        "columns_desktop": {
+          "label": "Número de colunas no desktop"
         }
       },
       "presets": {
@@ -603,6 +591,21 @@
         "show_rating": {
           "label": "Exibir avaliações do produto",
           "info": "Para exibir uma avaliação, adicione um app com essa funcionalidade específica. [Saiba mais](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-collection-show-product-rating)"
+        },
+        "columns_desktop": {
+          "label": "Número de colunas no desktop"
+        },
+        "header_mobile": {
+          "content": "Layout para dispositivos móveis"
+        },
+        "columns_mobile": {
+          "label": "Número de colunas em dispositivos móveis",
+          "options__1": {
+            "label": "1 coluna"
+          },
+          "options__2": {
+            "label": "2 colunas"
+          }
         }
       },
       "presets": {
@@ -638,24 +641,6 @@
         }
       },
       "settings": {
-        "color_scheme": {
-          "options__1": {
-            "label": "Destaque 1"
-          },
-          "options__2": {
-            "label": "Destaque 2"
-          },
-          "options__3": {
-            "label": "Plano de fundo 1"
-          },
-          "options__4": {
-            "label": "Plano de fundo 2"
-          },
-          "options__5": {
-            "label": "Inverso"
-          },
-          "label": "Esquema de cores"
-        },
         "newsletter_enable": {
           "label": "Exibir assinante de e-mail"
         },
@@ -735,31 +720,13 @@
           "label": "Habilitar cabeçalho fixo",
           "info": "O cabeçalho fica na tela quando o cliente rola para cima."
         },
-        "color_scheme": {
-          "options__1": {
-            "label": "Destaque 1"
-          },
-          "options__2": {
-            "label": "Destaque 2"
-          },
-          "options__3": {
-            "label": "Plano de fundo 1"
-          },
-          "options__4": {
-            "label": "Plano de fundo 2"
-          },
-          "options__5": {
-            "label": "Inverso"
-          },
-          "label": "Esquema de cores"
-        },
         "margin_bottom": {
           "label": "Margem inferior"
         }
       }
     },
     "image-banner": {
-      "name": "Banner da imagem",
+      "name": "Banner de imagem",
       "settings": {
         "image": {
           "label": "Primeira imagem"
@@ -768,22 +735,6 @@
           "label": "Segunda imagem"
         },
         "color_scheme": {
-          "options__1": {
-            "label": "Destaque 1"
-          },
-          "options__2": {
-            "label": "Destaque 2"
-          },
-          "options__3": {
-            "label": "Plano de fundo 1"
-          },
-          "options__4": {
-            "label": "Plano de fundo 2"
-          },
-          "options__5": {
-            "label": "Inverso"
-          },
-          "label": "Esquema de cores",
           "info": "Visível quando o contêiner é exibido."
         },
         "stack_images_on_mobile": {
@@ -791,7 +742,7 @@
         },
         "adapt_height_first_image": {
           "label": "Adaptar a altura da seção para o tamanho da primeira imagem",
-          "info": "Quando marcada, substitui a configuração de altura para o banner da imagem."
+          "info": "Quando marcada, substitui a configuração de altura para o banner de imagem."
         },
         "show_text_box": {
           "label": "Exibir contêiner no desktop"
@@ -879,15 +830,6 @@
           "settings": {
             "heading": {
               "label": "Título"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "Médio"
-              },
-              "options__2": {
-                "label": "Grande"
-              },
-              "label": "Tamanho do título"
             }
           }
         },
@@ -938,7 +880,7 @@
         }
       },
       "presets": {
-        "name": "Banner da imagem"
+        "name": "Banner de imagem"
       }
     },
     "image-with-text": {
@@ -958,24 +900,6 @@
             "label": "Grande"
           },
           "label": "Altura da imagem"
-        },
-        "color_scheme": {
-          "options__1": {
-            "label": "Plano de fundo 1"
-          },
-          "options__2": {
-            "label": "Plano de fundo 2"
-          },
-          "options__3": {
-            "label": "Inverso"
-          },
-          "options__4": {
-            "label": "Destaque 1"
-          },
-          "options__5": {
-            "label": "Destaque 2"
-          },
-          "label": "Esquema de cores"
         },
         "layout": {
           "options__1": {
@@ -1052,18 +976,6 @@
           "settings": {
             "heading": {
               "label": "Título"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "Pequeno"
-              },
-              "options__2": {
-                "label": "Médio"
-              },
-              "options__3": {
-                "label": "Grande"
-              },
-              "label": "Tamanho do título"
             }
           }
         },
@@ -1316,6 +1228,21 @@
         "show_rating": {
           "label": "Exibir avaliações do produto",
           "info": "Para exibir uma avaliação, adicione um app com essa funcionalidade específica. [Saiba mais](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-grid-show-product-rating)"
+        },
+        "columns_desktop": {
+          "label": "Número de colunas no desktop"
+        },
+        "header_mobile": {
+          "content": "Layout para dispositivos móveis"
+        },
+        "columns_mobile": {
+          "label": "Número de colunas em dispositivos móveis",
+          "options__1": {
+            "label": "1 coluna"
+          },
+          "options__2": {
+            "label": "2 colunas"
+          }
         }
       }
     },
@@ -1365,27 +1292,7 @@
       "name": "Página"
     },
     "main-password-footer": {
-      "name": "Rodapé de senha",
-      "settings": {
-        "color_scheme": {
-          "options__1": {
-            "label": "Destaque 1"
-          },
-          "options__2": {
-            "label": "Destaque 2"
-          },
-          "options__3": {
-            "label": "Plano de fundo 1"
-          },
-          "options__4": {
-            "label": "Plano de fundo 2"
-          },
-          "options__5": {
-            "label": "Inverso"
-          },
-          "label": "Esquema de cores"
-        }
-      }
+      "name": "Rodapé de senha"
     },
     "main-password-header": {
       "name": "Cabeçalho de senha",
@@ -1396,24 +1303,6 @@
         "logo_max_width": {
           "label": "Largura personalizada do logo",
           "unit": "px"
-        },
-        "color_scheme": {
-          "options__1": {
-            "label": "Destaque 1"
-          },
-          "options__2": {
-            "label": "Destaque 2"
-          },
-          "options__3": {
-            "label": "Plano de fundo 1"
-          },
-          "options__4": {
-            "label": "Plano de fundo 2"
-          },
-          "options__5": {
-            "label": "Inverso"
-          },
-          "label": "Esquema de cores"
         }
       }
     },
@@ -1757,6 +1646,21 @@
         "show_rating": {
           "label": "Exibir avaliações do produto",
           "info": "Para exibir uma avaliação, adicione um app com essa funcionalidade específica. [Saiba mais](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#search-results-show-product-rating)"
+        },
+        "columns_desktop": {
+          "label": "Número de colunas no desktop"
+        },
+        "header_mobile": {
+          "content": "Layout para dispositivos móveis"
+        },
+        "columns_mobile": {
+          "label": "Número de colunas em dispositivos móveis",
+          "options__1": {
+            "label": "1 coluna"
+          },
+          "options__2": {
+            "label": "2 colunas"
+          }
         }
       }
     },
@@ -1819,6 +1723,21 @@
         },
         "swipe_on_mobile": {
           "label": "Habilitar gesto de deslizar em dispositivos móveis"
+        },
+        "columns_desktop": {
+          "label": "Número de colunas no desktop"
+        },
+        "header_mobile": {
+          "content": "Layout para dispositivos móveis"
+        },
+        "columns_mobile": {
+          "label": "Número de colunas em dispositivos móveis",
+          "options__1": {
+            "label": "1 coluna"
+          },
+          "options__2": {
+            "label": "2 colunas"
+          }
         }
       },
       "blocks": {
@@ -1850,24 +1769,6 @@
     "newsletter": {
       "name": "Assinante de e-mail",
       "settings": {
-        "color_scheme": {
-          "label": "Esquema de cores",
-          "options__1": {
-            "label": "Destaque 1"
-          },
-          "options__2": {
-            "label": "Destaque 2"
-          },
-          "options__3": {
-            "label": "Plano de fundo 1"
-          },
-          "options__4": {
-            "label": "Plano de fundo 2"
-          },
-          "options__5": {
-            "label": "Inverso"
-          }
-        },
         "full_width": {
           "label": "Definir seção com largura total"
         },
@@ -1944,30 +1845,30 @@
         "show_rating": {
           "label": "Exibir avaliações do produto",
           "info": "Para exibir uma avaliação, adicione um app com essa funcionalidade específica. [Saiba mais](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-recommendations-show-product-rating)"
+        },
+        "columns_desktop": {
+          "label": "Número de colunas no desktop"
+        },
+        "header_mobile": {
+          "content": "Layout para dispositivos móveis"
+        },
+        "columns_mobile": {
+          "label": "Número de colunas em dispositivos móveis",
+          "options__1": {
+            "label": "1 coluna"
+          },
+          "options__2": {
+            "label": "2 colunas"
+          }
+        },
+        "products_to_show": {
+          "label": "Máximo de produtos a serem mostrados"
         }
       }
     },
     "rich-text": {
       "name": "Rich text",
       "settings": {
-        "color_scheme": {
-          "options__1": {
-            "label": "Destaque 1"
-          },
-          "options__2": {
-            "label": "Destaque 2"
-          },
-          "options__3": {
-            "label": "Plano de fundo 1"
-          },
-          "options__4": {
-            "label": "Plano de fundo 2"
-          },
-          "options__5": {
-            "label": "Inverso"
-          },
-          "label": "Esquema de cores"
-        },
         "full_width": {
           "label": "Definir seção com largura total"
         }
@@ -1978,18 +1879,6 @@
           "settings": {
             "heading": {
               "label": "Título"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "Pequeno"
-              },
-              "options__2": {
-                "label": "Médio"
-              },
-              "label": "Tamanho do título",
-              "options__3": {
-                "label": "Grande"
-              }
             }
           }
         },
@@ -2191,22 +2080,6 @@
           "label": "Opacidade de sobreposição de imagem"
         },
         "color_scheme": {
-          "options__1": {
-            "label": "Destaque 1"
-          },
-          "options__2": {
-            "label": "Destaque 2"
-          },
-          "options__3": {
-            "label": "Plano de fundo 1"
-          },
-          "options__4": {
-            "label": "Plano de fundo 2"
-          },
-          "options__5": {
-            "label": "Inverso"
-          },
-          "label": "Esquema de cores",
           "info": "Visível quando o contêiner é exibido"
         },
         "show_text_below": {
@@ -2401,18 +2274,6 @@
             "secondary_style": {
               "label": "Usar estilo de botão com contorno"
             },
-            "heading_size": {
-              "label": "Tamanho do título",
-              "options__1": {
-                "label": "Pequeno"
-              },
-              "options__2": {
-                "label": "Médio"
-              },
-              "options__3": {
-                "label": "Grande"
-              }
-            },
             "box_align": {
               "label": "Posição do conteúdo no desktop",
               "options__1": {
@@ -2463,23 +2324,7 @@
               "label": "Opacidade de sobreposição de imagem"
             },
             "color_scheme": {
-              "info": "Visível quando o contêiner é exibido.",
-              "options__1": {
-                "label": "Destaque 1"
-              },
-              "options__2": {
-                "label": "Destaque 2"
-              },
-              "options__3": {
-                "label": "Plano de fundo 1"
-              },
-              "options__4": {
-                "label": "Plano de fundo 2"
-              },
-              "options__5": {
-                "label": "Inverso"
-              },
-              "label": "Esquema de cores"
+              "info": "Visível quando o contêiner é exibido."
             },
             "text_alignment_mobile": {
               "label": "Alinhamento de conteúdo em dispositivos móveis",
@@ -2533,41 +2378,8 @@
             "label": "Contêiner de seção"
           }
         },
-        "color_scheme": {
-          "label": "Esquema de cores",
-          "options__1": {
-            "label": "Plano de fundo 1"
-          },
-          "options__2": {
-            "label": "Plano de fundo 2"
-          },
-          "options__3": {
-            "label": "Inverso"
-          },
-          "options__4": {
-            "label": "Destaque 1"
-          },
-          "options__5": {
-            "label": "Destaque 2"
-          }
-        },
         "container_color_scheme": {
           "label": "Esquema de cores do contêiner",
-          "options__1": {
-            "label": "Plano de fundo 1"
-          },
-          "options__2": {
-            "label": "Plano de fundo 2"
-          },
-          "options__3": {
-            "label": "Inverso"
-          },
-          "options__4": {
-            "label": "Destaque 1"
-          },
-          "options__5": {
-            "label": "Destaque 2"
-          },
           "info": "Visível quando o layout está definido para contêiner de Linha ou de Seção."
         },
         "open_first_collapsible_row": {
