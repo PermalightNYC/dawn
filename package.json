@@ -1,0 +1,20 @@
+{
+  "name": "dawn-fork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PermalightNYC/dawn.git"
+  },
+  "keywords": [],
+  "author": "Dan Leatherman <dleatherman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PermalightNYC/dawn/issues"
+  },
+  "homepage": "https://github.com/PermalightNYC/dawn#readme"
+}
